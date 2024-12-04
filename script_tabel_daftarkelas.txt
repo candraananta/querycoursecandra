@@ -1,0 +1,41 @@
+-- INIT database
+CREATE TABLE daftar_kelas (
+  nama VARCHAR(50),
+  usia INT,
+  hobi VARCHAR(50),
+  warna_favorit VARCHAR(50),
+  kota VARCHAR(50)
+);
+
+
+ INSERT INTO daftar_kelas (nama, usia, hobi, warna_favorit, kota)
+VALUES 
+('Eka', 10, 'bersepeda', 'ungu', 'Medan'),
+('Fani', 9, 'menari', 'pink', 'Malang'),
+('Gina', 11, 'membaca', 'biru', 'Bali'),
+('Hadi', 8, 'main gitar', 'hijau', 'Yogyakarta'),
+('Indra', 12, 'sepak bola', 'merah', 'Jakarta'),
+('Joko', 10, 'melukis', 'kuning', 'Surabaya'),
+('Kiki', 9, 'berenang', 'biru', 'Bandung'),
+('Lina', 11, 'memasak', 'merah', 'Semarang'),
+('Mira', 8, 'bernyanyi', 'ungu', 'Makassar'),
+('Nina', 12, 'membaca', 'pink', 'Palembang'),
+('Oni', 10, 'menari', 'biru', 'Jakarta'),
+('Puja', 9, 'bersepeda', 'hijau', 'Bandung'),
+('Qila', 11, 'melukis', 'merah', 'Surabaya'),
+('Rani', 8, 'main piano', 'kuning', 'Medan'),
+('Sari', 12, 'berenang', 'pink', 'Malang'),
+('Toni', 10, 'main drum', 'ungu', 'Jakarta'),
+('Uli', 9, 'bernyanyi', 'biru', 'Bali'),
+('Vina', 11, 'memasak', 'hijau', 'Yogyakarta'),
+('Wati', 8, 'melukis', 'merah', 'Semarang'),
+('Xena', 12, 'membaca', 'biru', 'Makassar'),
+('Yogi', 10, 'main gitar', 'kuning', 'Palembang'),
+('Zara', 9, 'menari', 'pink', 'Jakarta'),
+('Ayu', 11, 'bersepeda', 'hijau', 'Bandung'),
+('Bara', 8, 'berenang', 'biru', 'Surabaya'),
+('Cika', 12, 'melukis', 'merah', 'Medan');
+
+
+-- QUERY database
+SELECT * FROM daftar_kelas;
